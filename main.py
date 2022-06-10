@@ -40,4 +40,3 @@ X_new_tfidf = tfidf_transformer.transform(X_new_counts)
 
 predicted = clf.predict(X_new_tfidf)
 
-for doc, 
